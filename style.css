@@ -1,0 +1,265 @@
+.custom{
+    border: 1px solid black;
+   background-color: #e6ede7;
+   margin-top: 20px;
+   border-radius: 20px;
+}
+.custom2 {
+    width: 80%; 
+    max-width: 1000px; 
+    border: 1px solid #ddd; 
+    background-color: #eeb8b5;
+    border-radius: 15px;
+
+}
+.img-frame {
+    width: 20%;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;}
+
+.navbackground{
+    background-color: rgb(25, 107, 37);
+}
+
+#canvas{
+    border-radius: 20px;
+}
+
+.logo {
+    width: 50px; 
+    height: 50px;
+    border-radius:50%;
+}
+.logo-name {
+    display: inline-block;
+    margin-left: 10px; 
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    font-family: cursive;
+}
+
+.nav-link {
+    color: white !important; 
+    font-weight: bold;
+}
+
+.logout{
+    font-size: 2rem; 
+    color: #ffffff; 
+    font-weight: 900; 
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3); }
+
+.navbar-nav .logout {
+    font-size: 1.6rem; 
+    cursor: pointer;
+}
+.navbar-nav .logout-button {
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.navbar-toggler {
+    border: none; 
+}
+
+.custom4{
+    border: 1px solid black;
+    height: 90vh;
+   background-color: #e6ede7;
+}
+
+.custom22 {
+    width: 80%; 
+    max-width: 600px; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    background-color: #d7e3dd;
+    border-radius: 15px;
+}
+
+.divIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divIcon i {
+    font-size: 5rem; 
+    color: gray;
+
+  }
+
+.password-container .bi-eye,
+.password-container .bi-eye-slash {
+    position: absolute;
+    right: 10px;
+    top: 55%;
+    cursor: pointer;
+}
+
+.password-container .form-control {
+    padding-right: 40px; 
+}
+
+.password-container {
+    position: relative;
+}
+
+
+.password-container1 .bi-eye,
+.password-container1 .bi-eye-slash {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-40%);
+    cursor: pointer;
+}
+
+.password-container1 .form-control {
+    padding-right: 40px; 
+}
+
+.password-container1 {
+    position: relative;
+}
+
+.boxcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cardHome {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    height: 100%; 
+}
+.cardimg {
+    width: 100%; 
+    height: 400px; 
+    object-fit: cover; 
+}
+.cardHome:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+#book {
+    width: 100%; 
+    max-width: 800px; 
+    height: 400px; 
+    margin: 40px auto;
+    position: relative;
+    perspective: 1500px; 
+    border: 5px solid #196B25;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-page {
+    width: 45%; 
+    height: 90%; 
+    position: absolute;
+    background: #fff; 
+    border: 3px solid #8B8B8B; 
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4); 
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    overflow: hidden;
+    border-radius: 10px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.book-page img {
+    width: 100%; 
+    height: auto; 
+    max-height: 100%; 
+    object-fit: contain; 
+    border: 5px solid #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    border-radius: 5px; 
+    background-color: #d5cfcf;
+}
+
+.book-page:nth-child(even) {
+left: 4%;
+transform-origin: left;
+}
+.book-page:nth-child(odd) {
+left: 51%; 
+transform-origin: right;
+}
+.book-page.flip {
+transform: rotateY(60deg);
+}
+.book-controls {
+text-align: center;
+margin-top: 20px;
+}
+.book-controls button {
+margin: 0 10px;
+padding: 10px 20px; 
+background-color: #196B25;
+border-radius: 50%;
+color: white;
+}
+
+.boxcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cardimg{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 20px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+border-radius: 20px;
+}
+.cardHome {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    height: 100%; 
+}
+
+
+@media (max-width: 767px) {
+    #canvas {
+        width: 300px;
+        height: 300px; 
+        margin-bottom: 20px;
+    }
+}
